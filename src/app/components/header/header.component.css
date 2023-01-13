@@ -1,0 +1,115 @@
+.header{
+  width: 100%;
+  height: 250px;
+}
+
+.header__info-line, span{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: blue;
+  color: white;
+}
+
+.header__info-line p{
+  margin-left: 5px;
+}
+
+span{
+  margin-right: 20px;
+}
+
+
+.fb-icon, .insta-icon{
+  font-size: 36px;
+}
+
+.insta-icon{
+  cursor: pointer;
+  background: pink;
+  background: -webkit-radial-gradient(33% 100% circle, #515ECF 4%, #9B36B7 30%, #D92E7F 62%, #F15245 85%, #FED373);
+  background: radial-gradient(circle at 33% 100%, #ff3be7 4%, #ff3be7 28%, #03ffe8 62%, #F15245 85%, #FED373);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.insta-icon:hover{
+  background: -webkit-radial-gradient(33% 100% circle, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+  background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fb-icon{
+  cursor: pointer;
+  background:-moz-linear-gradient(31deg, rgba(255, 235, 59, 1) 0%, rgba(3, 169, 244, 1) 34%, rgba(212, 0, 204, 1) 69%, rgba(238, 130, 207, 1) 100%);
+  background:-webkit-linear-gradient(31deg, rgba(255, 235, 59, 1) 0%, rgba(3, 169, 244, 1) 34%, rgba(212, 0, 204, 1) 69%, rgba(238, 130, 207, 1) 100%);
+  background:-o-linear-gradient(31deg, rgba(255, 235, 59, 1) 0%, rgba(3, 169, 244, 1) 34%, rgba(212, 0, 204, 1) 69%, rgba(238, 130, 207, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFEB3B', endColorstr='#EE82CF', GradientType=1 );
+  background:-ms-linear-gradient(31deg, rgba(255, 235, 59, 1) 0%, rgba(3, 169, 244, 1) 34%, rgba(212, 0, 204, 1) 69%, rgba(238, 130, 207, 1) 100%);
+  background:linear-gradient(31deg, rgba(255, 235, 59, 1) 0%, rgba(3, 169, 244, 1) 34%, rgba(212, 0, 204, 1) 69%, rgba(238, 130, 207, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fb-icon:hover{
+  background:-moz-linear-gradient(239deg, rgba(255, 235, 59, 1) 0%, rgba(3, 169, 244, 1) 34%, rgba(212, 0, 204, 1) 69%, rgba(238, 130, 207, 1) 100%);
+  background:-webkit-linear-gradient(239deg, rgba(255, 235, 59, 1) 0%, rgba(3, 169, 244, 1) 34%, rgba(212, 0, 204, 1) 69%, rgba(238, 130, 207, 1) 100%);
+  background:-o-linear-gradient(239deg, rgba(255, 235, 59, 1) 0%, rgba(3, 169, 244, 1) 34%, rgba(212, 0, 204, 1) 69%, rgba(238, 130, 207, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFEB3B', endColorstr='#EE82CF', GradientType=0 );
+  background:-ms-linear-gradient(239deg, rgba(255, 235, 59, 1) 0%, rgba(3, 169, 244, 1) 34%, rgba(212, 0, 204, 1) 69%, rgba(238, 130, 207, 1) 100%);
+  background:linear-gradient(239deg, rgba(255, 235, 59, 1) 0%, rgba(3, 169, 244, 1) 34%, rgba(212, 0, 204, 1) 69%, rgba(238, 130, 207, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.header__main-upper, .header__main-upper--logo{
+  display: flex;
+  flex-direction: row;
+}
+
+.header__main-upper--logo{
+  flex: 0.5;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.logo-name{
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-name a{
+  text-decoration: none;
+}
+.header__main-upper--buttons{
+  display: flex;
+  flex-direction: row;
+  flex: 0.5;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__main-lower{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  margin: 10px 0;
+}
+
+.header__main-lower button{
+  min-width: max-content;
+  padding: 0 25px;
+  height: 40px;
+  border-radius: 65px 0 65px 0;
+  border: 1px solid black;
+}
+
+

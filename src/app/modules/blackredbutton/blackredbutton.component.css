@@ -1,0 +1,25 @@
+
+.header__main-upper--buttons button:hover{
+  transform: scale(1.2);
+}
+
+.header__main-upper--buttons button{
+  width: 250px;
+  height: 60px;
+  font-size: 18px;
+}
+.red-button{
+  background-color: red;
+  border-radius: 0 0 0 65px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.black-button{
+  background-color: black;
+  border-radius: 0 65px 0 0;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

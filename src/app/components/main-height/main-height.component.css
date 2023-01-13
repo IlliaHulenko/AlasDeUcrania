@@ -1,0 +1,47 @@
+/*html{*/
+/*  height: 100vh;*/
+/*  overflow: hidden;*/
+/*}*/
+
+.parallax-wrapper{
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  position: relative;
+
+  perspective: 1px;
+  transform-style: preserve-3d;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.parallax{
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+.parallax::before{
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url("../../../assets/images/alas_de_ucrania_ayuda_humanitaria_portada.jpg") center center no-repeat;
+  background-size: cover;
+  transform: translateZ(-1px) scale(2.2);
+  filter: blur(2px);
+}
+
+.parallax::after{
+  content: '';
+  width: 550px;
+  height: 550px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: scale(1,1.1) translate(-50%, 25%);
+  background: url("../../../assets/images/ukrainian-hart.png") top center no-repeat;
+  background-size: cover;
+}
+

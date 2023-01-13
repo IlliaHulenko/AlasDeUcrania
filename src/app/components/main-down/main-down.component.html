@@ -1,0 +1,79 @@
+<div class="main-down__wrapper">
+  <div class="main-down__wrapper-sharing">
+    <span class="main-down__sharing-title">
+      <i class="fa-regular fa-share-from-square"></i>
+      <h4>COMPÁRTENOS CON TUS AMIGOS</h4>
+    </span>
+    <div class="main-down__wrapper-sharing-text">
+      <p>Si te gusta lo que hacemos y quieres ayudarnos a difundir la causa,
+        comparte nuestra página con tus amigos, permítenos llegar a más
+        personas y bríndales la oportunidad de ser partícipes de algo bueno.
+      </p>
+    </div>
+    <div class="main-down__sharing-social">
+      <i class="fa-brands fa-facebook fb-icon"></i>
+      <i class="fa-brands fa-twitter tw-icon"></i>
+      <i class="fa-brands fa-whatsapp wa-icon"></i>
+      <i class="fa-brands fa-telegram tel-icon"></i>
+      <i class="fa-brands fa-viber vib-icon"></i>
+      <i class="fa-brands fa-linkedin lin-icon"></i>
+    </div>
+  </div>
+  <div class="main-down__wrapper-donation">
+    <div class="main-down__wrapper-donation-icon">
+<!--      <hr class="hr-left"/>-->
+      <div class="main-down__wrapper-donation-icon-left-wing">
+        <img src="assets/images/angel-wings.png" alt="angels left wing" >
+      </div>
+
+      <i class="fa-solid fa-hand-holding-dollar fa-2xl donation-icon"></i>
+      <div class="main-down__wrapper-donation-icon-right-wing">
+        <img src="assets/images/angel-wings.png" alt="angels left wing">
+      </div>
+<!--      <hr class="hr-right"/>-->
+    </div>
+    <p>
+      AYUDANOS A AYUDAR A UCRANIA
+    </p>
+    <div class="header__main-down--buttons">
+      <app-blackredbutton></app-blackredbutton>
+    </div>
+  </div>
+  <div class="main-down__wrapper-gallery">
+    <app-carousel
+      [images]="images"
+      [autoSlide]="true"
+    ></app-carousel>
+  </div>
+  <div class="main-down__social">
+    <div class="main-down__social-left">
+      <div class="main-down__social-left-image">
+        <img src="https://alasdeucrania.es/wp-content/uploads/elementor/thumbs/alas_de_ucania_logo_ayuda_humanitaria_a_ucrania-pskz2sgy0kmmbmw8iucode0nkkym02afhy6j105qy6.jpg"
+             alt="Logo of Alas de Ucrania" />
+        <p>Alas de Ucrania</p>
+      </div>
+      <p>Síguenos en Redes Sociales!</p>
+      <div class="main-down__social-left-icons">
+        <a href="https://www.facebook.com/alasdeucrania">
+          <i class="fa-brands fa-square-facebook icon-fb"></i>
+        </a>
+        <a href="https://www.instagram.com/alasdeucrania/">
+          <i class="fa-brands fa-instagram icon-insta"></i>
+        </a>
+      </div>
+    </div>
+    <div class="main-down__social-right">
+      <span>Para estar informado</span>
+      <p>Suscríbete a nuestro boletín de novedades!</p>
+      <div class="main-down__social-right-input">
+        <form class="main-down__social-right-input-form" action="#">
+          <input name="email" type="text" placeholder="email">
+          <button>
+            <i class="fa-solid fa-envelope-open-text icon-envelope"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</div>
