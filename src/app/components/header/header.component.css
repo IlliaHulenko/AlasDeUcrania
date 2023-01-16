@@ -1,15 +1,21 @@
+
 .header{
   width: 100%;
   height: 250px;
 }
 
-.header__info-line, span{
+.header__info-line{
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
   background-color: blue;
   color: white;
+}
+
+.header__info-line span{
+  display: flex;
+  align-items: center;
 }
 
 .header__info-line p{
@@ -19,7 +25,6 @@
 span{
   margin-right: 20px;
 }
-
 
 .fb-icon, .insta-icon{
   font-size: 36px;
@@ -51,6 +56,7 @@ span{
   background:linear-gradient(31deg, rgba(255, 235, 59, 1) 0%, rgba(3, 169, 244, 1) 34%, rgba(212, 0, 204, 1) 69%, rgba(238, 130, 207, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  transition: 0.5s;
 }
 
 .fb-icon:hover{
@@ -63,7 +69,6 @@ span{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 
 .header__main-upper, .header__main-upper--logo{
   display: flex;
@@ -85,6 +90,16 @@ span{
 
 .logo-name a{
   text-decoration: none;
+  font-family: "Aclonica", sans-serif;
+  font-size: 36px;
+  color: #001AAA;
+}
+
+.logo-image img{
+  margin-right: 30px;
+}
+.logo-name p{
+  margin: 0;
 }
 .header__main-upper--buttons{
   display: flex;
@@ -104,12 +119,36 @@ span{
   margin: 10px 0;
 }
 
-.header__main-lower button{
-  min-width: max-content;
-  padding: 0 25px;
-  height: 40px;
+.header__main-lower a{
+  position: relative;
+  background: #fff;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  padding: 10px 30px;
+  transition: 0.5s;
+}
+.header__main-lower a:hover{
+  letter-spacing: 0.25em;
+  background: #1e9bff;
+  color: #1e9bff;
+  box-shadow: 0 0 35px #1e9bff;
   border-radius: 65px 0 65px 0;
-  border: 1px solid black;
 }
 
+.header__main-lower a:before{
+  content: '';
+  position: absolute;
+  inset: 2px;
+  border-radius: 65px 0 65px 0;
+  border: black;
+  background: lightgrey;
+}
 
+.header__main-lower a span{
+  position: relative;
+  z-index: 1;
+}

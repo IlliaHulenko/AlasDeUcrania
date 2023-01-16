@@ -5,12 +5,12 @@
 /*:root{*/
 
 /*}*/
-/*:root .wrapper{*/
-/*  position: relative;*/
-/*  scroll-behavior: smooth;*/
-/*  scroll-snap-type: y mandatory;*/
-/*  scrollbar-width: none;*/
-/*}*/
-/*:root .wrapper::-webkit-scrollbar{*/
-/*  display: none;*/
-/*}*/
+:root .wrapper{
+  position: relative;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  scrollbar-width: none;
+}
+:root .wrapper::-webkit-scrollbar{
+  display: none;
+}
